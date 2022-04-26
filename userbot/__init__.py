@@ -40,8 +40,8 @@ def close_connection(*_):
 
 signal.signal(signal.SIGTERM, close_connection)
 
-if Config.UPSTREAM_REPO == "jmthonrz":
-    UPSTREAM_REPO_URL = "https://github.com/jmthonar/userbot"
+if Config.UPSTREAM_REPO == "LINDA":
+    UPSTREAM_REPO_URL = "https://github.com/CAT-USERBOT/CATUSERBOTt"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
